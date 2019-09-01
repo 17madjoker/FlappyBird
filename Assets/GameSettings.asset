@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea915e739e244e489d34654110e588d, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _defaultVolume: 0.1
+  _defaultAudioStatus: 1
+  _dieSfx: {fileID: 8300000, guid: 8676184ba5bd93a498f68e959bd0f057, type: 3}
+  _hitSfx: {fileID: 8300000, guid: 7b11aed7476c10543867d9531f735644, type: 3}
+  _collectSfx: {fileID: 8300000, guid: f6fd8f97896160f43812352c948aeee2, type: 3}
+  _wingSfx: {fileID: 8300000, guid: 4f9b586dd18cb84499d957e00d14b602, type: 3}
+  _fallingSfx: {fileID: 8300000, guid: dcff2511e09e4c14b9f5c6fee0b50b10, type: 3}
+  _jumpForce: 6
+  _minPipeOffset: -1.1
+  _maxPipeOffset: 1.1
+  _pipeSpeed: 2
+  _pipeTimeSpawn: 1.3
+  _pipePrefab: {fileID: 6761112746109665885, guid: 92370d191cbf3ab46a67730ac74391c5,
+    type: 3}
